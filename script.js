@@ -25,3 +25,28 @@ window.addEventListener('keydown', (event) => {
     navToggle?.focus();
   }
 });
+
+// Wedding countdown (October 1, 2026 at 5:00 PM Mexico City time, UTC-06:00)
+const countdownDays = document.querySelector('#countdown-days');
+
+if (countdownDays) {
+  const targetDate = new Date('2026-10-01T17:00:00-06:00');
+  const millisecondsPerDay = 1000 * 60 * 60 * 24;
+
+  const updateCountdown = () => {
+    const now = new Date();
+    const difference = targetDate.getTime() - now.getTime();
+
+    if (difference <= 0) {
+      countdownDays.textContent = '0';
+      return;
+    }
+
+    countdownDays.textContent = String(
+      Math.ceil(difference / millisecondsPerDay)
+    );
+  };
+
+  updateCountdown();
+  setInterval(updateCountdown, 60 * 1000);
+}
