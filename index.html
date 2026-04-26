@@ -139,7 +139,22 @@
             Confirma tu asistencia antes del <strong>15 de mayo de 2026</strong> para finalizar asientos y catering.
           </p>
           <p data-i18n="rsvp.line2">Si recibiste una invitación, responde usando el formulario de RSVP de abajo.</p>
-          <a class="btn" href="rsvp.html" aria-label="Abrir formulario de RSVP" data-i18n="rsvp.button" data-i18n-attr="aria-label:rsvp.buttonAria">Abrir formulario RSVP</a>
+
+          <form id="rsvp-form" class="rsvp-form" novalidate>
+            <label for="rsvp-name">Nombre completo</label>
+            <input id="rsvp-name" name="name" type="text" autocomplete="name" required />
+
+            <label for="rsvp-attendance">Asistencia</label>
+            <select id="rsvp-attendance" name="attendance" required>
+              <option value="" selected disabled>Selecciona una opción</option>
+              <option value="Attending">Attending</option>
+              <option value="Not attending">Not attending</option>
+            </select>
+
+            <button type="submit" class="btn" id="rsvp-submit">Enviar RSVP</button>
+          </form>
+
+          <p id="rsvp-message" class="note" role="status" aria-live="polite"></p>
         </div>
       </section>
 

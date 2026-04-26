@@ -346,3 +346,58 @@ if (languageToggle) {
 
 applyTranslations('es');
 setInterval(updateCountdown, 60 * 1000);
+
+const rsvpForm = document.querySelector('#rsvp-form');
+const rsvpMessage = document.querySelector('#rsvp-message');
+const rsvpSubmitButton = document.querySelector('#rsvp-submit');
+
+// Paste your Google Apps Script Web App URL here if it changes.
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzglbZEObJ8d4tNLIW0imaGybsgA8f8Ga7JbyVdOfE8RJQkQfZavPM7CfJL0kdUUkdH/exec';
+
+const setRsvpMessage = (message, isError = false) => {
+  if (!rsvpMessage) {
+    return;
+  }
+
+  rsvpMessage.textContent = message;
+  rsvpMessage.classList.toggle('error', isError);
+  rsvpMessage.classList.toggle('success', !isError && Boolean(message));
+};
+
+if (rsvpForm && rsvpSubmitButton) {
+  rsvpForm.addEventListener('submit', async (event) => {
+    event.preventDefault();
+
+    const nameInput = rsvpForm.querySelector('[name="name"]');
+    const attendanceInput = rsvpForm.querySelector('[name="attendance"]');
+
+    const name = String(nameInput?.value || '').trim();
+    const attendance = String(attendanceInput?.value || '').trim();
+
+    if (!name || !attendance) {
+      setRsvpMessage('Please complete your full name and attendance status.', true);
+      return;
+    }
+
+    const formData = new FormData(rsvpForm);
+
+    rsvpSubmitButton.disabled = true;
+    setRsvpMessage('');
+
+    try {
+      await fetch(scriptURL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: formData,
+      });
+
+      setRsvpMessage('Thank you! Your reservation has been submitted.');
+      rsvpForm.reset();
+    } catch (error) {
+      console.error(error);
+      setRsvpMessage('Something went wrong. Please try again.', true);
+    } finally {
+      rsvpSubmitButton.disabled = false;
+    }
+  });
+}

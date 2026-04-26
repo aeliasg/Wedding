@@ -377,6 +377,7 @@ h2 {
 }
 
 .rsvp-form input,
+.rsvp-form select,
 .rsvp-form textarea {
   font: inherit;
   padding: 0.6rem 0.7rem;
@@ -403,4 +404,19 @@ h2 {
 
 .rsvp-info {
   margin-top: 1.2rem;
+}
+
+
+#rsvp-message.success {
+  color: #2f6a3f;
+}
+
+#rsvp-message.error {
+  color: #9c2f2f;
+}
+
+.rsvp-form .btn[disabled] {
+  opacity: 0.7;
+  cursor: not-allowed;
+  pointer-events: none;
 }
