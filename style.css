@@ -89,6 +89,27 @@ h2 {
   padding: 0.75rem 0;
 }
 
+.language-toggle-wrap {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-right: auto;
+}
+
+.language-label {
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.language-toggle {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.3rem 0.45rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
 .brand {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 1.2rem;
@@ -312,6 +333,16 @@ h2 {
 }
 
 @media (max-width: 800px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .language-toggle-wrap {
+    width: 100%;
+    order: -1;
+    margin-bottom: 0.25rem;
+  }
+
   .nav-toggle {
     display: block;
   }
