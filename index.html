@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wedding information website with schedule, venues, travel details, and RSVP guidance for guests."
+    />
+    <title>Our Wedding | Information for Guests</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" id="top">
+      <nav class="navbar" aria-label="Main navigation">
+        <div class="brand">Our Wedding</div>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+          Menu
+        </button>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#details">Details</a></li>
+          <li><a href="#venues">Venues</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#rsvp">RSVP</a></li>
+          <li><a href="#travel">Travel</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <!-- Hero Section -->
+      <section class="hero" id="hero" aria-label="Wedding introduction">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+          <p class="eyebrow">Together with our families</p>
+          <!-- EDIT HERE: Wedding title -->
+          <h1>We're Getting Married</h1>
+          <!-- EDIT HERE: Couple names -->
+          <p class="couple-names">Alex &amp; Taylor</p>
+          <!-- EDIT HERE: Wedding date -->
+          <p class="wedding-date">Saturday, June 20, 2026</p>
+          <!-- EDIT HERE: Welcome message -->
+          <p class="welcome-message">
+            We are so grateful to celebrate this special day with family and friends.
+            Below you'll find all the important details in one place.
+          </p>
+          <a class="btn primary" href="#details">View Details</a>
+        </div>
+      </section>
+
+      <!-- Important Details -->
+      <section class="section" id="details">
+        <div class="container">
+          <h2>Important Details</h2>
+          <div class="card-grid details-grid">
+            <article class="card">
+              <h3>Date</h3>
+              <!-- EDIT HERE -->
+              <p>Saturday, June 20, 2026</p>
+            </article>
+            <article class="card">
+              <h3>Time</h3>
+              <!-- EDIT HERE -->
+              <p>3:00 PM Ceremony | 5:00 PM Reception</p>
+            </article>
+            <article class="card">
+              <h3>Main Venue</h3>
+              <!-- EDIT HERE -->
+              <p>Sunset Garden Estate</p>
+            </article>
+            <article class="card">
+              <h3>Dress Code</h3>
+              <!-- EDIT HERE -->
+              <p>Formal / Semi-Formal (light colors encouraged)</p>
+            </article>
+            <article class="card">
+              <h3>Contact</h3>
+              <!-- EDIT HERE -->
+              <p>Jordan (Wedding Coordinator): +1 (000) 000-0000</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Venues -->
+      <section class="section alt" id="venues">
+        <div class="container">
+          <h2>Venues</h2>
+          <div class="card-grid venues-grid">
+            <article class="card">
+              <h3>Ceremony Venue</h3>
+              <!-- EDIT HERE -->
+              <p>Starlight Chapel</p>
+              <p>123 Blossom Lane, Your City, ST 00000</p>
+              <p>
+                <a href="#" class="inline-link">Google Maps Placeholder</a>
+              </p>
+              <p class="note">Please arrive 20 minutes early for seating.</p>
+            </article>
+            <article class="card">
+              <h3>Reception Venue</h3>
+              <!-- EDIT HERE -->
+              <p>Sunset Garden Estate</p>
+              <p>456 Golden Road, Your City, ST 00000</p>
+              <p>
+                <a href="#" class="inline-link">Google Maps Placeholder</a>
+              </p>
+              <p class="note">Parking attendants will guide guests on arrival.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Schedule -->
+      <section class="section" id="schedule">
+        <div class="container">
+          <h2>Wedding Day Schedule</h2>
+          <ol class="timeline">
+            <!-- EDIT HERE: update timeline times and labels -->
+            <li><span>2:30 PM</span> Guest Arrival</li>
+            <li><span>3:00 PM</span> Ceremony Begins</li>
+            <li><span>4:00 PM</span> Family &amp; Couple Photos</li>
+            <li><span>5:30 PM</span> Dinner Service</li>
+            <li><span>7:00 PM</span> Dancing &amp; Celebration</li>
+            <li><span>10:30 PM</span> End of Event</li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- RSVP -->
+      <section class="section alt" id="rsvp">
+        <div class="container narrow">
+          <h2>Guest List &amp; RSVP</h2>
+          <!-- EDIT HERE -->
+          <p>
+            Please confirm your attendance by <strong>May 15, 2026</strong> so we can
+            finalize seating and catering.
+          </p>
+          <p>
+            If you received an invitation, please respond using the RSVP form below.
+          </p>
+          <!-- EDIT HERE: replace # with your form URL -->
+          <a class="btn" href="#" aria-label="Open RSVP form">RSVP Form Placeholder</a>
+        </div>
+      </section>
+
+      <!-- Travel and Accommodation -->
+      <section class="section" id="travel">
+        <div class="container">
+          <h2>Travel &amp; Accommodation</h2>
+          <div class="card-grid travel-grid">
+            <article class="card">
+              <h3>Hotel Recommendations</h3>
+              <!-- EDIT HERE -->
+              <p>Hotel A (10 minutes from venue)</p>
+              <p>Hotel B (city center, shuttle available)</p>
+              <p>Hotel C (budget-friendly nearby)</p>
+            </article>
+            <article class="card">
+              <h3>Transport Information</h3>
+              <!-- EDIT HERE -->
+              <p>Ride-share drop-off area available at both venues.</p>
+              <p>Limited guest shuttle service to reception.</p>
+              <p>Taxi and local transit options available.</p>
+            </article>
+            <article class="card">
+              <h3>Airport / City Notes</h3>
+              <!-- EDIT HERE -->
+              <p>Nearest airport: Your City International Airport (YYY).</p>
+              <p>Approx. 35 minutes to main venue by car.</p>
+              <p>For guests abroad: remember travel insurance and adapters.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section class="section alt" id="faq">
+        <div class="container narrow">
+          <h2>Frequently Asked Questions</h2>
+          <div class="faq-list">
+            <!-- EDIT HERE: FAQ content -->
+            <details>
+              <summary>Can I bring a plus one?</summary>
+              <p>Please refer to your invitation. If unsure, contact us directly.</p>
+            </details>
+            <details>
+              <summary>Are kids invited?</summary>
+              <p>
+                We love your little ones! Please check your invitation for child attendance details.
+              </p>
+            </details>
+            <details>
+              <summary>What should I wear?</summary>
+              <p>Formal or semi-formal attire in comfortable, celebration-ready styles.</p>
+            </details>
+            <details>
+              <summary>Where should I park?</summary>
+              <p>On-site parking is available with attendants at the reception venue.</p>
+            </details>
+            <details>
+              <summary>What time should I arrive?</summary>
+              <p>Please arrive 20-30 minutes before the ceremony starts.</p>
+            </details>
+            <details>
+              <summary>Who can I contact if I have questions?</summary>
+              <p>Contact Jordan at +1 (000) 000-0000 for help.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+      <section class="section" id="gallery">
+        <div class="container">
+          <h2>Photo Gallery</h2>
+          <p class="gallery-intro">
+            Replace these placeholder images with your own photos in <code>assets/images</code>.
+          </p>
+          <div class="gallery-grid" aria-label="Photo gallery placeholders">
+            <!-- EDIT HERE: replace image files with your own -->
+            <figure>
+              <img src="assets/images/gallery-1.svg" alt="Placeholder for engagement photo 1" />
+            </figure>
+            <figure>
+              <img src="assets/images/gallery-2.svg" alt="Placeholder for engagement photo 2" />
+            </figure>
+            <figure>
+              <img src="assets/images/gallery-3.svg" alt="Placeholder for engagement photo 3" />
+            </figure>
+            <figure>
+              <img src="assets/images/gallery-4.svg" alt="Placeholder for engagement photo 4" />
+            </figure>
+            <figure>
+              <img src="assets/images/gallery-5.svg" alt="Placeholder for engagement photo 5" />
+            </figure>
+            <figure>
+              <img src="assets/images/gallery-6.svg" alt="Placeholder for engagement photo 6" />
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container narrow">
+        <!-- EDIT HERE -->
+        <p>Thank you for celebrating with us.</p>
+        <p>With love, Alex &amp; Taylor</p>
+        <p>June 20, 2026</p>
+        <p><a href="#top" class="inline-link">Back to top</a></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
