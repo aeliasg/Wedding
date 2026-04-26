@@ -136,6 +136,23 @@ h2 {
   color: #fff;
 }
 
+.countdown-banner {
+  background: var(--bg-alt);
+  border-bottom: 1px solid var(--border);
+  padding: 0.8rem 0;
+}
+
+.countdown-text {
+  margin: 0;
+  text-align: center;
+  color: var(--text);
+}
+
+#countdown-days {
+  color: var(--accent-deep);
+  font-size: 1.2em;
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
