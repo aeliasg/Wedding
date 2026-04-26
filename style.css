@@ -365,3 +365,42 @@ h2 {
     display: flex;
   }
 }
+
+.rsvp-page {
+  min-height: 100vh;
+}
+
+.rsvp-form {
+  display: grid;
+  gap: 0.8rem;
+  margin: 1.5rem 0;
+}
+
+.rsvp-form input,
+.rsvp-form textarea {
+  font: inherit;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+}
+
+.rsvp-form fieldset {
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.rsvp-form .btn {
+  justify-self: start;
+}
+
+#form-message.error {
+  color: #9c2f2f;
+}
+
+.rsvp-info {
+  margin-top: 1.2rem;
+}

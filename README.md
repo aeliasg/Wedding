@@ -120,3 +120,21 @@ Replace it with your file path (for example, `hero.jpg`).
 - No Node.js, package manager, or backend is required.
 - If something looks wrong, confirm file paths are relative and correctly spelled.
 - Keep `index.html` in the root directory so GitHub Pages can load your homepage.
+
+
+
+## RSVP flow (new)
+
+The RSVP button now opens `rsvp.html`, where guests can submit:
+
+- Full name
+- Attendance (`yes` or `no`)
+- Number of guests
+- Notes (optional)
+
+### Where RSVP data is saved
+
+- **Production (recommended):** set `RSVP_ENDPOINT` in `rsvp.js` to a real form endpoint (Formspree, Supabase Edge Function, Google Apps Script, etc.).
+- **Without endpoint:** data is only stored in the guest browser `localStorage` for testing.
+
+> Important: if you want to track attendance centrally, you must connect a real backend endpoint.

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Formulario RSVP para confirmar asistencia a la boda."
+    />
+    <title>Alejandro &amp; Ayane | RSVP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="section rsvp-page">
+      <div class="container narrow">
+        <p><a class="inline-link" href="index.html#rsvp">← Volver al sitio principal</a></p>
+        <h1>Confirmación de asistencia (RSVP)</h1>
+        <p>
+          Completa este formulario para confirmar si puedes asistir. Recibirás un mensaje de confirmación al enviar tus datos.
+        </p>
+
+        <form id="rsvp-form" class="rsvp-form" novalidate>
+          <label for="guest-name">Nombre completo</label>
+          <input id="guest-name" name="name" type="text" autocomplete="name" required />
+
+          <fieldset>
+            <legend>¿Podrás asistir?</legend>
+            <label><input type="radio" name="attending" value="yes" required /> Sí, asistiré</label>
+            <label><input type="radio" name="attending" value="no" required /> No podré asistir</label>
+          </fieldset>
+
+          <label for="guest-count">Número de asistentes</label>
+          <input id="guest-count" name="guests" type="number" min="1" max="6" value="1" required />
+
+          <label for="guest-notes">Notas (alergias, restricciones, etc.)</label>
+          <textarea id="guest-notes" name="notes" rows="4"></textarea>
+
+          <button type="submit" class="btn">Enviar RSVP</button>
+        </form>
+
+        <p id="form-message" class="note" role="status" aria-live="polite"></p>
+
+        <div class="card rsvp-info">
+          <h2>¿Dónde se guardan los datos?</h2>
+          <p>
+            Este formulario está preparado para enviarse a un endpoint (por ejemplo Formspree, Supabase o Google Apps Script).
+            Cuando conectes ese endpoint, cada respuesta quedará guardada en esa plataforma para que puedas revisar quién asiste y quién no.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <script src="rsvp.js"></script>
+  </body>
+</html>
