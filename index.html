@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Wedding information website with schedule, venues, travel details, and RSVP guidance for guests."
+      content="Sitio web de información de boda con cronograma, sedes, detalles de viaje e instrucciones de RSVP para invitados."
+      data-i18n-attr="content:meta.description"
     />
-    <title>Alejandro &amp; Ayane | Wedding Information for Guests</title>
+    <title data-i18n="meta.title">Alejandro &amp; Ayane | Información de boda para invitados</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,245 +18,217 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <a class="skip-link" href="#main-content" data-i18n="skip">Saltar al contenido principal</a>
 
     <header class="site-header" id="top">
-      <nav class="navbar" aria-label="Main navigation">
+      <nav class="navbar" aria-label="Navegación principal" data-i18n-attr="aria-label:nav.ariaLabel">
+        <div class="language-toggle-wrap">
+          <label for="language-toggle" class="language-label" data-i18n="language.label">Idioma</label>
+          <select id="language-toggle" class="language-toggle" aria-label="Seleccionar idioma" data-i18n-attr="aria-label:language.selectAria">
+            <option value="es" data-i18n="language.spanish">Español</option>
+            <option value="ja" data-i18n="language.japanese">日本語</option>
+          </select>
+        </div>
+
         <div class="brand">Alejandro &amp; Ayane</div>
-        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">
-          Menu
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" data-i18n="nav.menuButton">
+          Menú
         </button>
         <ul class="nav-menu" id="nav-menu">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#details">Details</a></li>
-          <li><a href="#venues">Venues</a></li>
-          <li><a href="#schedule">Schedule</a></li>
-          <li><a href="#rsvp">RSVP</a></li>
-          <li><a href="#travel">Travel</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#hero" data-i18n="nav.home">Inicio</a></li>
+          <li><a href="#details" data-i18n="nav.details">Detalles</a></li>
+          <li><a href="#venues" data-i18n="nav.venues">Sedes</a></li>
+          <li><a href="#schedule" data-i18n="nav.schedule">Cronograma</a></li>
+          <li><a href="#rsvp" data-i18n="nav.rsvp">RSVP</a></li>
+          <li><a href="#travel" data-i18n="nav.travel">Viaje</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">Preguntas</a></li>
+          <li><a href="#gallery" data-i18n="nav.gallery">Galería</a></li>
         </ul>
       </nav>
     </header>
 
     <main id="main-content">
-      <section class="countdown-banner" aria-label="Countdown to the wedding">
+      <section class="countdown-banner" aria-label="Cuenta regresiva para la boda" data-i18n-attr="aria-label:countdown.ariaLabel">
         <div class="container narrow">
-          <p class="countdown-text">
-            <strong id="countdown-days">--</strong> days left until the wedding
-            (October 1, 2026 at 5:00 PM Mexico City time).
-          </p>
+          <p class="countdown-text"><strong id="countdown-days">--</strong> <span id="countdown-label"></span></p>
         </div>
       </section>
 
-      <!-- Hero Section -->
-      <section class="hero" id="hero" aria-label="Wedding introduction">
+      <section class="hero" id="hero" aria-label="Introducción de la boda" data-i18n-attr="aria-label:hero.ariaLabel">
         <div class="hero-overlay"></div>
         <div class="hero-content container">
-          <p class="eyebrow">Together with our families</p>
-          <!-- EDIT HERE: Wedding title -->
-          <h1>Alejandro &amp; Ayane Are Getting Married</h1>
-          <!-- EDIT HERE: Couple names -->
+          <p class="eyebrow" data-i18n="hero.eyebrow">Junto con nuestras familias</p>
+          <h1 data-i18n="hero.title">Alejandro y Ayane se casan</h1>
           <p class="couple-names">Alejandro &amp; Ayane</p>
-          <!-- EDIT HERE: Wedding date -->
-          <p class="wedding-date">Saturday, June 20, 2026</p>
-          <!-- EDIT HERE: Welcome message -->
-          <p class="welcome-message">
-            We are so grateful to celebrate this special day with family and friends.
-            Below you'll find all the important details in one place.
+          <p class="wedding-date" data-i18n="hero.date">Sábado, 20 de junio de 2026</p>
+          <p class="welcome-message" data-i18n="hero.message">
+            Estamos muy agradecidos de celebrar este día tan especial con familia y amigos. Abajo encontrarás todos los detalles importantes en un solo lugar.
           </p>
-          <a class="btn primary" href="#details">View Details</a>
+          <a class="btn primary" href="#details" data-i18n="hero.cta">Ver detalles</a>
         </div>
       </section>
 
-      <!-- Important Details -->
       <section class="section" id="details">
         <div class="container">
-          <h2>Important Details</h2>
+          <h2 data-i18n="details.title">Detalles importantes</h2>
           <div class="card-grid details-grid">
             <article class="card">
-              <h3>Date</h3>
-              <!-- EDIT HERE -->
-              <p>Saturday, June 20, 2026</p>
+              <h3 data-i18n="details.dateTitle">Fecha</h3>
+              <p data-i18n="details.dateValue">Sábado, 20 de junio de 2026</p>
             </article>
             <article class="card">
-              <h3>Time</h3>
-              <!-- EDIT HERE -->
-              <p>3:00 PM Ceremony | 5:00 PM Reception</p>
+              <h3 data-i18n="details.timeTitle">Hora</h3>
+              <p data-i18n="details.timeValue">3:00 PM Ceremonia | 5:00 PM Recepción</p>
             </article>
             <article class="card">
-              <h3>Main Venue</h3>
-              <!-- EDIT HERE -->
-              <p>Sunset Garden Estate</p>
+              <h3 data-i18n="details.venueTitle">Lugar principal</h3>
+              <p data-i18n="details.venueValue">Sunset Garden Estate</p>
             </article>
             <article class="card">
-              <h3>Dress Code</h3>
-              <!-- EDIT HERE -->
-              <p>Formal / Semi-Formal (light colors encouraged)</p>
+              <h3 data-i18n="details.dressTitle">Código de vestimenta</h3>
+              <p data-i18n="details.dressValue">Formal / Semiformal (se recomiendan colores claros)</p>
             </article>
             <article class="card">
-              <h3>Contact</h3>
-              <!-- EDIT HERE -->
-              <p>Jordan (Wedding Coordinator): +1 (000) 000-0000</p>
+              <h3 data-i18n="details.contactTitle">Contacto</h3>
+              <p data-i18n="details.contactValue">Jordan (coordinación de boda): +1 (000) 000-0000</p>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- Venues -->
       <section class="section alt" id="venues">
         <div class="container">
-          <h2>Venues</h2>
+          <h2 data-i18n="venues.title">Sedes</h2>
           <div class="card-grid venues-grid">
             <article class="card">
-              <h3>Ceremony Venue</h3>
-              <!-- EDIT HERE -->
-              <p>Starlight Chapel</p>
-              <p>123 Blossom Lane, Your City, ST 00000</p>
+              <h3 data-i18n="venues.ceremonyTitle">Sede de la ceremonia</h3>
+              <p data-i18n="venues.ceremonyName">Starlight Chapel</p>
+              <p data-i18n="venues.ceremonyAddress">123 Blossom Lane, Your City, ST 00000</p>
               <p>
-                <a href="#" class="inline-link">Google Maps Placeholder</a>
+                <a href="#" class="inline-link" data-i18n="venues.mapsLink">Marcador de Google Maps</a>
               </p>
-              <p class="note">Please arrive 20 minutes early for seating.</p>
+              <p class="note" data-i18n="venues.ceremonyNote">Por favor llega 20 minutos antes para tomar asiento.</p>
             </article>
             <article class="card">
-              <h3>Reception Venue</h3>
-              <!-- EDIT HERE -->
-              <p>Sunset Garden Estate</p>
-              <p>456 Golden Road, Your City, ST 00000</p>
+              <h3 data-i18n="venues.receptionTitle">Sede de la recepción</h3>
+              <p data-i18n="venues.receptionName">Sunset Garden Estate</p>
+              <p data-i18n="venues.receptionAddress">456 Golden Road, Your City, ST 00000</p>
               <p>
-                <a href="#" class="inline-link">Google Maps Placeholder</a>
+                <a href="#" class="inline-link" data-i18n="venues.mapsLink">Marcador de Google Maps</a>
               </p>
-              <p class="note">Parking attendants will guide guests on arrival.</p>
+              <p class="note" data-i18n="venues.receptionNote">Habrá personal de estacionamiento para guiar a los invitados.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- Schedule -->
       <section class="section" id="schedule">
         <div class="container">
-          <h2>Wedding Day Schedule</h2>
+          <h2 data-i18n="schedule.title">Cronograma del día de la boda</h2>
           <ol class="timeline">
-            <!-- EDIT HERE: update timeline times and labels -->
-            <li><span>2:30 PM</span> Guest Arrival</li>
-            <li><span>3:00 PM</span> Ceremony Begins</li>
-            <li><span>4:00 PM</span> Family &amp; Couple Photos</li>
-            <li><span>5:30 PM</span> Dinner Service</li>
-            <li><span>7:00 PM</span> Dancing &amp; Celebration</li>
-            <li><span>10:30 PM</span> End of Event</li>
+            <li><span>2:30 PM</span> <span data-i18n="schedule.arrival">Llegada de invitados</span></li>
+            <li><span>3:00 PM</span> <span data-i18n="schedule.ceremony">Inicio de la ceremonia</span></li>
+            <li><span>4:00 PM</span> <span data-i18n="schedule.photos">Fotos de familia y pareja</span></li>
+            <li><span>5:30 PM</span> <span data-i18n="schedule.dinner">Servicio de cena</span></li>
+            <li><span>7:00 PM</span> <span data-i18n="schedule.dancing">Baile y celebración</span></li>
+            <li><span>10:30 PM</span> <span data-i18n="schedule.end">Fin del evento</span></li>
           </ol>
         </div>
       </section>
 
-      <!-- RSVP -->
       <section class="section alt" id="rsvp">
         <div class="container narrow">
-          <h2>Guest List &amp; RSVP</h2>
-          <!-- EDIT HERE -->
-          <p>
-            Please confirm your attendance by <strong>May 15, 2026</strong> so we can
-            finalize seating and catering.
+          <h2 data-i18n="rsvp.title">Lista de invitados y RSVP</h2>
+          <p data-i18n="rsvp.line1Html" data-i18n-html="true">
+            Confirma tu asistencia antes del <strong>15 de mayo de 2026</strong> para finalizar asientos y catering.
           </p>
-          <p>
-            If you received an invitation, please respond using the RSVP form below.
-          </p>
-          <!-- EDIT HERE: replace # with your form URL -->
-          <a class="btn" href="#" aria-label="Open RSVP form">RSVP Form Placeholder</a>
+          <p data-i18n="rsvp.line2">Si recibiste una invitación, responde usando el formulario de RSVP de abajo.</p>
+          <a class="btn" href="#" aria-label="Abrir formulario de RSVP" data-i18n="rsvp.button" data-i18n-attr="aria-label:rsvp.buttonAria">Marcador de formulario RSVP</a>
         </div>
       </section>
 
-      <!-- Travel and Accommodation -->
       <section class="section" id="travel">
         <div class="container">
-          <h2>Travel &amp; Accommodation</h2>
+          <h2 data-i18n="travel.title">Viaje y alojamiento</h2>
           <div class="card-grid travel-grid">
             <article class="card">
-              <h3>Hotel Recommendations</h3>
-              <!-- EDIT HERE -->
-              <p>Hotel A (10 minutes from venue)</p>
-              <p>Hotel B (city center, shuttle available)</p>
-              <p>Hotel C (budget-friendly nearby)</p>
+              <h3 data-i18n="travel.hotelsTitle">Recomendaciones de hotel</h3>
+              <p data-i18n="travel.hotelA">Hotel A (a 10 minutos del lugar)</p>
+              <p data-i18n="travel.hotelB">Hotel B (centro de la ciudad, con transporte)</p>
+              <p data-i18n="travel.hotelC">Hotel C (opción económica cercana)</p>
             </article>
             <article class="card">
-              <h3>Transport Information</h3>
-              <!-- EDIT HERE -->
-              <p>Ride-share drop-off area available at both venues.</p>
-              <p>Limited guest shuttle service to reception.</p>
-              <p>Taxi and local transit options available.</p>
+              <h3 data-i18n="travel.transportTitle">Información de transporte</h3>
+              <p data-i18n="travel.transport1">Hay zona de descenso para apps de transporte en ambas sedes.</p>
+              <p data-i18n="travel.transport2">Servicio de transporte limitado hacia la recepción.</p>
+              <p data-i18n="travel.transport3">También hay opciones de taxi y transporte público local.</p>
             </article>
             <article class="card">
-              <h3>Airport / City Notes</h3>
-              <!-- EDIT HERE -->
-              <p>Nearest airport: Your City International Airport (YYY).</p>
-              <p>Approx. 35 minutes to main venue by car.</p>
-              <p>For guests abroad: remember travel insurance and adapters.</p>
+              <h3 data-i18n="travel.airportTitle">Notas de aeropuerto / ciudad</h3>
+              <p data-i18n="travel.airport1">Aeropuerto más cercano: Your City International Airport (YYY).</p>
+              <p data-i18n="travel.airport2">Aprox. 35 minutos al lugar principal en auto.</p>
+              <p data-i18n="travel.airport3">Para invitados del extranjero: recuerden seguro de viaje y adaptadores.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <!-- FAQ -->
       <section class="section alt" id="faq">
         <div class="container narrow">
-          <h2>Frequently Asked Questions</h2>
+          <h2 data-i18n="faq.title">Preguntas frecuentes</h2>
           <div class="faq-list">
-            <!-- EDIT HERE: FAQ content -->
             <details>
-              <summary>Can I bring a plus one?</summary>
-              <p>Please refer to your invitation. If unsure, contact us directly.</p>
+              <summary data-i18n="faq.q1">¿Puedo llevar acompañante?</summary>
+              <p data-i18n="faq.a1">Revisa tu invitación. Si tienes dudas, contáctanos directamente.</p>
             </details>
             <details>
-              <summary>Are kids invited?</summary>
-              <p>
-                We love your little ones! Please check your invitation for child attendance details.
-              </p>
+              <summary data-i18n="faq.q2">¿Están invitados los niños?</summary>
+              <p data-i18n="faq.a2">¡Queremos mucho a tus peques! Revisa tu invitación para confirmar asistencia infantil.</p>
             </details>
             <details>
-              <summary>What should I wear?</summary>
-              <p>Formal or semi-formal attire in comfortable, celebration-ready styles.</p>
+              <summary data-i18n="faq.q3">¿Qué debo usar?</summary>
+              <p data-i18n="faq.a3">Ropa formal o semiformal, cómoda y lista para celebrar.</p>
             </details>
             <details>
-              <summary>Where should I park?</summary>
-              <p>On-site parking is available with attendants at the reception venue.</p>
+              <summary data-i18n="faq.q4">¿Dónde debo estacionarme?</summary>
+              <p data-i18n="faq.a4">Habrá estacionamiento en sitio con personal en la sede de recepción.</p>
             </details>
             <details>
-              <summary>What time should I arrive?</summary>
-              <p>Please arrive 20-30 minutes before the ceremony starts.</p>
+              <summary data-i18n="faq.q5">¿A qué hora debo llegar?</summary>
+              <p data-i18n="faq.a5">Por favor llega entre 20 y 30 minutos antes de que inicie la ceremonia.</p>
             </details>
             <details>
-              <summary>Who can I contact if I have questions?</summary>
-              <p>Contact Jordan at +1 (000) 000-0000 for help.</p>
+              <summary data-i18n="faq.q6">¿A quién contacto si tengo dudas?</summary>
+              <p data-i18n="faq.a6">Contacta a Jordan al +1 (000) 000-0000 para ayuda.</p>
             </details>
           </div>
         </div>
       </section>
 
-      <!-- Gallery -->
       <section class="section" id="gallery">
         <div class="container">
-          <h2>Photo Gallery</h2>
-          <p class="gallery-intro">
-            Replace these placeholder images with your own photos in <code>assets/images</code>.
+          <h2 data-i18n="gallery.title">Galería de fotos</h2>
+          <p class="gallery-intro" data-i18n="gallery.introHtml" data-i18n-html="true">
+            Reemplaza estas imágenes de ejemplo con tus propias fotos en <code>assets/images</code>.
           </p>
-          <div class="gallery-grid" aria-label="Photo gallery placeholders">
-            <!-- EDIT HERE: replace image files with your own -->
+          <div class="gallery-grid" aria-label="Marcadores de posición de galería" data-i18n-attr="aria-label:gallery.ariaLabel">
             <figure>
-              <img src="assets/images/gallery-1.svg" alt="Placeholder for engagement photo 1" />
+              <img src="assets/images/gallery-1.svg" alt="Imagen de ejemplo para foto de compromiso 1" data-i18n-attr="alt:gallery.alt1" />
             </figure>
             <figure>
-              <img src="assets/images/gallery-2.svg" alt="Placeholder for engagement photo 2" />
+              <img src="assets/images/gallery-2.svg" alt="Imagen de ejemplo para foto de compromiso 2" data-i18n-attr="alt:gallery.alt2" />
             </figure>
             <figure>
-              <img src="assets/images/gallery-3.svg" alt="Placeholder for engagement photo 3" />
+              <img src="assets/images/gallery-3.svg" alt="Imagen de ejemplo para foto de compromiso 3" data-i18n-attr="alt:gallery.alt3" />
             </figure>
             <figure>
-              <img src="assets/images/gallery-4.svg" alt="Placeholder for engagement photo 4" />
+              <img src="assets/images/gallery-4.svg" alt="Imagen de ejemplo para foto de compromiso 4" data-i18n-attr="alt:gallery.alt4" />
             </figure>
             <figure>
-              <img src="assets/images/gallery-5.svg" alt="Placeholder for engagement photo 5" />
+              <img src="assets/images/gallery-5.svg" alt="Imagen de ejemplo para foto de compromiso 5" data-i18n-attr="alt:gallery.alt5" />
             </figure>
             <figure>
-              <img src="assets/images/gallery-6.svg" alt="Placeholder for engagement photo 6" />
+              <img src="assets/images/gallery-6.svg" alt="Imagen de ejemplo para foto de compromiso 6" data-i18n-attr="alt:gallery.alt6" />
             </figure>
           </div>
         </div>
@@ -264,11 +237,10 @@
 
     <footer class="site-footer">
       <div class="container narrow">
-        <!-- EDIT HERE -->
-        <p>Thank you for celebrating with us.</p>
-        <p>With love, Alejandro &amp; Ayane</p>
-        <p>June 20, 2026</p>
-        <p><a href="#top" class="inline-link">Back to top</a></p>
+        <p data-i18n="footer.thanks">Gracias por celebrar con nosotros.</p>
+        <p>Con amor, Alejandro &amp; Ayane</p>
+        <p data-i18n="footer.date">20 de junio de 2026</p>
+        <p><a href="#top" class="inline-link" data-i18n="footer.top">Volver arriba</a></p>
       </div>
     </footer>
 
