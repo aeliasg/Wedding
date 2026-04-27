@@ -22,7 +22,7 @@ const translations = {
       rsvp: 'Confirmación de asistencia',
       travel: 'Viaje',
       faq: 'Preguntas',
-      gallery: 'Galería',
+      message: 'Mensaje',
     },
     countdown: {
       ariaLabel: 'Cuenta regresiva para la boda',
@@ -102,17 +102,9 @@ const translations = {
       q6: '¿A quién contacto si tengo dudas?',
       a6: 'Contacta a Jordan al +1 (000) 000-0000 para ayuda.',
     },
-    gallery: {
-      title: 'Galería de fotos',
-      introHtml:
-        'Reemplaza estas imágenes de ejemplo con tus propias fotos en <code>assets/images</code>.',
-      ariaLabel: 'Marcadores de posición de galería',
-      alt1: 'Imagen de ejemplo para foto de compromiso 1',
-      alt2: 'Imagen de ejemplo para foto de compromiso 2',
-      alt3: 'Imagen de ejemplo para foto de compromiso 3',
-      alt4: 'Imagen de ejemplo para foto de compromiso 4',
-      alt5: 'Imagen de ejemplo para foto de compromiso 5',
-      alt6: 'Imagen de ejemplo para foto de compromiso 6',
+    message: {
+      title: 'Un mensaje para ustedes',
+      note: 'Muchas gracias por tomarse el tiempo de acompañarnos en este momento tan especial. Esperamos verlos muy pronto. Con amor, Alejandro y Ayane.',
     },
     footer: {
       thanks: 'Gracias por celebrar con nosotros.',
@@ -143,7 +135,7 @@ const translations = {
       rsvp: '出欠確認',
       travel: '旅行情報',
       faq: 'よくある質問',
-      gallery: 'ギャラリー',
+      message: 'メッセージ',
     },
     countdown: {
       ariaLabel: '結婚式までのカウントダウン',
@@ -223,17 +215,9 @@ const translations = {
       q6: '質問がある場合の連絡先は？',
       a6: 'ご不明点は Jordan（+1 (000) 000-0000）までご連絡ください。',
     },
-    gallery: {
-      title: 'フォトギャラリー',
-      introHtml:
-        '<code>assets/images</code> のサンプル画像を、おふたりの写真に差し替えてください。',
-      ariaLabel: 'フォトギャラリーのプレースホルダー',
-      alt1: '婚約写真1のプレースホルダー',
-      alt2: '婚約写真2のプレースホルダー',
-      alt3: '婚約写真3のプレースホルダー',
-      alt4: '婚約写真4のプレースホルダー',
-      alt5: '婚約写真5のプレースホルダー',
-      alt6: '婚約写真6のプレースホルダー',
+    message: {
+      title: '皆さまへのメッセージ',
+      note: '私たちの大切な日にお時間を割いてくださり、心より感謝申し上げます。近いうちにお会いできることを楽しみにしています。愛を込めて、Alejandro と Ayaneより。',
     },
     footer: {
       thanks: '私たちの大切な日を一緒にお祝いしてくださりありがとうございます。',
