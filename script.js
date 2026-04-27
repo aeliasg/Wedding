@@ -19,7 +19,7 @@ const translations = {
       details: 'Detalles',
       venues: 'Sedes',
       schedule: 'Cronograma',
-      rsvp: 'RSVP',
+      rsvp: 'Confirmación de asistencia',
       travel: 'Viaje',
       faq: 'Preguntas',
       gallery: 'Galería',
@@ -65,7 +65,7 @@ const translations = {
       end: 'Fin del evento',
     },
     rsvp: {
-      title: 'Lista de invitados y RSVP',
+      title: 'Confirmación de asistencia',
       line1Html:
         'Confirma tu asistencia antes del <strong>15 de mayo de 2026</strong> para finalizar asientos y catering.',
       line2: 'Si recibiste una invitación, responde usando el formulario de RSVP de abajo.',
@@ -140,7 +140,7 @@ const translations = {
       details: '詳細',
       venues: '会場',
       schedule: 'スケジュール',
-      rsvp: 'RSVP',
+      rsvp: '出欠確認',
       travel: '旅行情報',
       faq: 'よくある質問',
       gallery: 'ギャラリー',
@@ -186,7 +186,7 @@ const translations = {
       end: '閉会',
     },
     rsvp: {
-      title: 'ゲストリスト＆RSVP',
+      title: '出欠確認',
       line1Html:
         '<strong>2026年5月15日</strong> までに出欠をご回答ください。席次とケータリングの準備に必要です。',
       line2: '招待状を受け取った方は、以下のRSVPフォームからご回答ください。',
