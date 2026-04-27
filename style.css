@@ -205,6 +205,16 @@ h2 {
   margin: 0.2rem 0 0.5rem;
 }
 
+.couple-line,
+.couple-ampersand {
+  display: block;
+}
+
+.couple-ampersand {
+  font-size: 0.75em;
+  line-height: 0.8;
+}
+
 .wedding-date {
   font-weight: 600;
   margin: 0;

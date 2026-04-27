@@ -26,16 +26,16 @@ const translations = {
     },
     countdown: {
       ariaLabel: 'Cuenta regresiva para la boda',
-      text: 'días para la boda (1 de octubre de 2026 a las 5:00 PM, hora de Ciudad de México).',
+      text: 'días para la boda (2026.Oct.01, 5:00 PM hora de Ciudad de México).',
     },
     hero: {
       ariaLabel: 'Introducción de la boda',
-      date: 'Jueves, 1 de octubre de 2026',
+      date: '2026.Oct.01',
     },
     details: {
       title: 'Detalles importantes',
       dateTitle: 'Fecha',
-      dateValue: 'Jueves, 1 de octubre de 2026',
+      dateValue: '2026.Oct.01',
       ceremonyTitle: 'Ceremonia',
       ceremonyValue: 'La ceremonia religiosa se llevará a cabo a las 5:00 p. m. (hora de México) en la Basílica Colegiata de Nuestra Señora de Guanajuato.',
       receptionTitle: 'Recepción',
@@ -147,16 +147,16 @@ const translations = {
     },
     countdown: {
       ariaLabel: '結婚式までのカウントダウン',
-      text: '日後に結婚式です（2026年10月1日 午後5:00 メキシコシティ時間）。',
+      text: '日後に結婚式です（2026.Oct.01 17:00 メキシコシティ時間）。',
     },
     hero: {
       ariaLabel: '結婚式のご案内',
-      date: '2026年10月1日（木）',
+      date: '2026.Oct.01',
     },
     details: {
       title: '重要なお知らせ',
       dateTitle: '日付',
-      dateValue: '2026年10月1日（木）',
+      dateValue: '2026.Oct.01',
       ceremonyTitle: '挙式',
       ceremonyValue: '挙式はグアナファト大聖堂にて午後5時ごろに行う予定です。',
       receptionTitle: '披露宴',
