@@ -30,24 +30,18 @@ const translations = {
     },
     hero: {
       ariaLabel: 'Introducción de la boda',
-      eyebrow: 'Junto con nuestras familias',
-      title: 'Alejandro y Ayane se casan',
-      date: 'Sábado, 20 de junio de 2026',
-      message:
-        'Estamos muy agradecidos de celebrar este día tan especial con familia y amigos. Abajo encontrarás todos los detalles importantes en un solo lugar.',
-      cta: 'Ver detalles',
+      date: 'Jueves, 1 de octubre de 2026',
     },
     details: {
       title: 'Detalles importantes',
       dateTitle: 'Fecha',
-      dateValue: 'October 1st, 2026',
+      dateValue: 'Jueves, 1 de octubre de 2026',
       ceremonyTitle: 'Ceremonia',
-      ceremonyValue: 'The wedding ceremony will take place at approximately 5:00 PM at Guanajuato Basilica.',
+      ceremonyValue: 'La ceremonia de boda se llevará a cabo aproximadamente a las 5:00 p. m. en la Basílica de Guanajuato.',
       receptionTitle: 'Recepción',
-      receptionValue:
-        'The reception will take place at approximately 8:00 PM at the restaurant. More details will be shared soon.',
+      receptionValue: 'La recepción se llevará a cabo aproximadamente a las 8:00 p. m. en el restaurante. Compartiremos más detalles pronto.',
       dressTitle: 'Código de vestimenta',
-      dressValue: 'To be defined',
+      dressValue: 'Por definir',
     },
     venues: {
       title: 'Sedes',
@@ -157,24 +151,18 @@ const translations = {
     },
     hero: {
       ariaLabel: '結婚式のご案内',
-      eyebrow: '両家の家族とともに',
-      title: 'Alejandro と Ayane が結婚します',
-      date: '2026年6月20日（土）',
-      message:
-        '家族や友人の皆さまとこの特別な日を迎えられることをとても嬉しく思っています。必要な情報をこのページにまとめました。',
-      cta: '詳細を見る',
+      date: '2026年10月1日（木）',
     },
     details: {
       title: '重要なお知らせ',
       dateTitle: '日付',
-      dateValue: 'October 1st, 2026',
+      dateValue: '2026年10月1日（木）',
       ceremonyTitle: '挙式',
-      ceremonyValue: 'The wedding ceremony will take place at approximately 5:00 PM at Guanajuato Basilica.',
+      ceremonyValue: '挙式はグアナファト大聖堂にて午後5時ごろに行う予定です。',
       receptionTitle: '披露宴',
-      receptionValue:
-        'The reception will take place at approximately 8:00 PM at the restaurant. More details will be shared soon.',
+      receptionValue: '披露宴はレストランにて午後8時ごろに行う予定です。詳細は追ってお知らせします。',
       dressTitle: 'ドレスコード',
-      dressValue: 'To be defined',
+      dressValue: '未定',
     },
     venues: {
       title: '会場',
