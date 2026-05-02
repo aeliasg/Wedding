@@ -99,7 +99,7 @@ const translations = {
       q2: '¿Están invitados los niños?',
       a2: '¡Queremos mucho a tus peques! Revisa tu invitación para confirmar asistencia infantil.',
       q3: '¿Qué debo usar?',
-      a3: 'Ropa formal o semiformal, cómoda y lista para celebrar.',
+      a3: 'Ropa formal.',
       q4: '¿Dónde debo estacionarme?',
       a4: 'Habrá estacionamiento en sitio con personal en la sede de recepción.',
       q5: '¿A qué hora debo llegar?',
