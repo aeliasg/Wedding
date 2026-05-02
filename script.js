@@ -26,7 +26,7 @@ const translations = {
     },
     countdown: {
       ariaLabel: 'Cuenta regresiva para la boda',
-      text: 'días para la boda (2026.Oct.01, 5:00 PM hora de Ciudad de México).',
+      text: 'días para la Boda',
     },
     hero: {
       ariaLabel: 'Introducción de la boda',
@@ -144,7 +144,7 @@ const translations = {
     },
     countdown: {
       ariaLabel: '結婚式までのカウントダウン',
-      text: '日後に結婚式です（2026.Oct.01 17:00 メキシコシティ時間）。',
+      text: '日後に結婚式',
     },
     hero: {
       ariaLabel: '結婚式のご案内',
