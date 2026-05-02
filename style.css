@@ -158,21 +158,20 @@ h2 {
   color: #fff;
 }
 
-.countdown-banner {
-  background: var(--bg-alt);
-  border-bottom: 1px solid var(--border);
-  padding: 0.8rem 0;
-}
-
 .countdown-text {
-  margin: 0;
+  margin: 0 0 0.55rem;
   text-align: center;
-  color: var(--text);
+  color: #fff;
+  font-family: "Great Vibes", cursive;
+  font-size: clamp(1.8rem, 1.2rem + 2vw, 2.8rem);
+  line-height: 1;
+  text-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
 }
 
 #countdown-days {
-  color: var(--accent-deep);
-  font-size: 1.2em;
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .hero-overlay {
