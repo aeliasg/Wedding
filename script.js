@@ -73,6 +73,9 @@ const translations = {
       line2: 'Si recibiste una invitación, responde usando el formulario de RSVP de abajo.',
       button: 'Abrir formulario RSVP',
       buttonAria: 'Abrir formulario de RSVP',
+      attendancePlaceholder: 'Selecciona una opción',
+      attendanceYes: 'Asistiré',
+      attendanceNo: 'No asistiré',
     },
     travel: {
       title: 'Viaje y alojamiento',
@@ -188,6 +191,9 @@ const translations = {
       line2: '招待状を受け取った方は、以下のRSVPフォームからご回答ください。',
       button: 'RSVPフォームを開く',
       buttonAria: 'RSVPフォームを開く',
+      attendancePlaceholder: 'オプションを選択してください',
+      attendanceYes: '出席します',
+      attendanceNo: '欠席します',
     },
     travel: {
       title: '交通・宿泊案内',
