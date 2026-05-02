@@ -1,7 +1,7 @@
 const translations = {
   es: {
     meta: {
-      title: 'Alejandro & Ayane | Información de boda para invitados',
+      title: 'Ayane & Alejandro | Información de boda para invitados',
       description:
         'Sitio web de información de boda con cronograma, sedes, detalles de viaje e instrucciones de RSVP para invitados.',
     },
@@ -104,7 +104,7 @@ const translations = {
     },
     message: {
       title: 'Un mensaje para ustedes',
-      note: 'Muchas gracias por tomarse el tiempo de acompañarnos en este momento tan especial. Esperamos verlos muy pronto. Con amor, Alejandro y Ayane.',
+      note: 'Muchas gracias por tomarse el tiempo de acompañarnos en este momento tan especial. Esperamos verlos muy pronto. Con amor, Ayane y Alejandro.',
     },
     footer: {
       thanks: 'Gracias por celebrar con nosotros.',
@@ -114,7 +114,7 @@ const translations = {
   },
   ja: {
     meta: {
-      title: 'Alejandro & Ayane | 結婚式ゲスト向け情報',
+      title: 'Ayane & Alejandro | 結婚式ゲスト向け情報',
       description:
         '結婚式のスケジュール、会場、旅行情報、RSVP案内をまとめたゲスト向けサイトです。',
     },
@@ -217,7 +217,7 @@ const translations = {
     },
     message: {
       title: '皆さまへのメッセージ',
-      note: '私たちの大切な日にお時間を割いてくださり、心より感謝申し上げます。近いうちにお会いできることを楽しみにしています。愛を込めて、Alejandro と Ayaneより。',
+      note: '私たちの大切な日にお時間を割いてくださり、心より感謝申し上げます。近いうちにお会いできることを楽しみにしています。愛を込めて、Ayane と Alejandroより。',
     },
     footer: {
       thanks: '私たちの大切な日を一緒にお祝いしてくださりありがとうございます。',
