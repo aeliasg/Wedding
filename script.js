@@ -69,7 +69,7 @@ const translations = {
     rsvp: {
       title: 'Confirmación de asistencia',
       line1Html:
-        'Confirma tu asistencia antes del <strong>15 de mayo de 2026</strong> para finalizar asientos y catering.',
+        'Confirma tu asistencia antes del <strong>sabado 1 de agosto de 2026</strong> para finalizar asientos y catering.',
       line2: 'Si recibiste una invitación, responde usando el formulario de RSVP de abajo.',
       button: 'Abrir formulario RSVP',
       buttonAria: 'Abrir formulario de RSVP',
