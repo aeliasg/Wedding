@@ -103,9 +103,9 @@ const translations = {
       q4: '¿Dónde debo estacionarme?',
       a4: 'Habrá estacionamiento en sitio con personal en la sede de recepción.',
       q5: '¿A qué hora debo llegar?',
-      a5: 'Por favor llega entre 20 y 30 minutos antes de que inicie la ceremonia.',
+      a5: 'Por favor llegar entre 10 y 15 min antes de que inicie la ceremonia o la recepción.',
       q6: '¿A quién contacto si tengo dudas?',
-      a6: 'Contacta a Jordan al +1 (000) 000-0000 para ayuda.',
+      a6: 'Envía un mensaje a la persona que compartió la invitación contigo.',
     },
     message: {
       title: 'Un mensaje para ustedes',
@@ -221,9 +221,9 @@ const translations = {
       q4: '駐車場はどこですか？',
       a4: '披露宴会場にスタッフ付きの駐車場があります。',
       q5: '何時に到着すればいいですか？',
-      a5: '挙式開始の20〜30分前までにお越しください。',
+      a5: '挙式または披露宴の開始10〜15分前までにお越しください。',
       q6: '質問がある場合の連絡先は？',
-      a6: 'ご不明点は Jordan（+1 (000) 000-0000）までご連絡ください。',
+      a6: '招待を共有した方へメッセージしてください。',
     },
     message: {
       title: '皆さまへのメッセージ',
