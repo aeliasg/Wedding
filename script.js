@@ -41,7 +41,7 @@ const translations = {
       receptionTitle: 'Recepción',
       receptionValue: 'La recepción se llevará a cabo a las 9:00 p. m. (hora de México) en La Virgen de la Cueva, Resturante Cultural de Gto.',
       dressTitle: 'Código de vestimenta',
-      dressValue: 'Por definir',
+      dressValue: 'Vestimenta formal',
     },
     venues: {
       title: 'Sedes',
