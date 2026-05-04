@@ -7,7 +7,7 @@ const translations = {
     },
     skip: 'Saltar al contenido principal',
     language: {
-      label: 'Idioma',
+      label: 'Idioma - 言語',
       selectAria: 'Seleccionar idioma',
       spanish: 'Español',
       japanese: '日本語',
