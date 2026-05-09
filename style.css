@@ -332,8 +332,11 @@ h2 {
 }
 
 .timeline span {
-  font-weight: 600;
   color: var(--accent-deep);
+}
+
+.timeline li span:first-child {
+  font-weight: 600;
 }
 
 .btn {
