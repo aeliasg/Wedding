@@ -81,13 +81,13 @@ const translations = {
       title: 'Viaje y alojamiento',
       hotelsTitle: 'Recomendaciones de hotel',
       hotelMissionHtml:
-        'La opción de hotel más cercana a la recepción es <a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>.',
+        'Otra opción cercana a la recepción es <a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>.',
       hotelMissionMapsHtml:
-        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Ver Hotel Misión Guanajuato en Google Maps</a>.',
+        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
       hotelRealMinasHtml:
-        'Otra opción cercana es <a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>.',
+        'Primera opción cercana: <a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>.',
       hotelRealMinasMapsHtml:
-        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Ver Hotel Real De Minas Guanajuato en Google Maps</a>.',
+        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
       transportTitle: 'Información de transporte',
       transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
       airportTitle: 'Notas de aeropuerto / ciudad',
@@ -202,13 +202,13 @@ const translations = {
       title: '交通・宿泊案内',
       hotelsTitle: 'ホテルのおすすめ',
       hotelMissionHtml:
-        '披露宴会場から最も近いホテルは、<a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>です。',
+        '次のホテルは<a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>です。',
       hotelMissionMapsHtml:
-        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión GuanajuatoをGoogle Mapsで見る</a>。',
+        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       hotelRealMinasHtml:
-        '次のホテルは<a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>です。',
+        '最初のおすすめは<a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>です。',
       hotelRealMinasMapsHtml:
-        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas GuanajuatoをGoogle Mapsで見る</a>。',
+        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       transportTitle: '交通情報',
       transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
       airportTitle: '空港 / 都市メモ',
