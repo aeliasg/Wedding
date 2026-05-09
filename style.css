@@ -27,6 +27,15 @@ body {
   line-height: 1.6;
 }
 
+.page-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
 img {
   max-width: 100%;
   display: block;
