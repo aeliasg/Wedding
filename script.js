@@ -114,8 +114,7 @@ const translations = {
       a6: 'Envía un mensaje a la persona que compartió la invitación contigo.',
     },
     message: {
-      title: 'Un mensaje para ustedes',
-      note: 'Muchas gracias por tomarse el tiempo de acompañarnos en este momento tan especial. Esperamos verlos muy pronto. Con amor, Ayane y Alejandro.',
+      note: 'Gracias de todo corazón por acompañarnos y por ser parte de esta etapa tan importante en nuestras vidas. Su presencia, cariño y buenos deseos significan muchísimo para nosotros y harán de este día un recuerdo aún más especial. Nos sentimos muy afortunados de poder celebrar rodeados de las personas que queremos. Con mucho amor y gratitud, Ayane y Alejandro.',
     },
     footer: {
       date: '20 de junio de 2026',
@@ -236,8 +235,7 @@ const translations = {
       a6: '招待を共有した方へメッセージしてください。',
     },
     message: {
-      title: '皆さまへのメッセージ',
-      note: '私たちの大切な日にお時間を割いてくださり、心より感謝申し上げます。近いうちにお会いできることを楽しみにしています。愛を込めて、Ayane と Alejandroより。',
+      note: '私たちの人生にとって大切な節目に寄り添い、共にお祝いしてくださることを心より感謝しています。皆さまの存在、温かいお気持ち、そして祝福の言葉は、私たちにとって何よりの宝物です。大好きな皆さまに囲まれてこの日を迎えられることを、とても幸せに思います。たくさんの愛と感謝を込めて、Ayane と Alejandroより。',
     },
     footer: {
       date: '2026年6月20日',
