@@ -121,22 +121,22 @@
         <div class="container narrow">
           <h2 data-i18n="rsvp.title">Confirmación de asistencia</h2>
           <p data-i18n="rsvp.line1Html" data-i18n-html="true">
-            Confirma tu asistencia antes del <strong>sabado 1 de agosto de 2026</strong> para finalizar asientos y catering.
+            Confirma tu asistencia antes del <strong>sábado 1 de agosto de 2026</strong> para finalizar asientos y catering.
           </p>
           <p data-i18n="rsvp.line2">Si recibiste una invitación, responde usando el formulario de RSVP de abajo.</p>
 
           <form id="rsvp-form" class="rsvp-form" novalidate>
-            <label for="rsvp-name">Nombre completo</label>
+            <label for="rsvp-name" data-i18n="rsvp.nameLabel">Nombre completo</label>
             <input id="rsvp-name" name="name" type="text" autocomplete="name" required />
 
-            <label for="rsvp-attendance">Asistencia</label>
+            <label for="rsvp-attendance" data-i18n="rsvp.attendanceLabel">Asistencia</label>
             <select id="rsvp-attendance" name="attendance" required>
               <option value="" selected disabled data-i18n="rsvp.attendancePlaceholder">Selecciona una opción</option>
               <option value="Attending" data-i18n="rsvp.attendanceYes">Asistiré</option>
               <option value="Not attending" data-i18n="rsvp.attendanceNo">No asistiré</option>
             </select>
 
-            <button type="submit" class="btn" id="rsvp-submit">Enviar RSVP</button>
+            <button type="submit" class="btn" id="rsvp-submit" data-i18n="rsvp.submitButton">Enviar RSVP</button>
           </form>
 
           <p id="rsvp-message" class="note" role="status" aria-live="polite"></p>

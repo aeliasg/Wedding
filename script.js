@@ -70,13 +70,16 @@ const translations = {
     rsvp: {
       title: 'Confirmación de asistencia',
       line1Html:
-        'Confirma tu asistencia antes del <strong>sabado 1 de agosto de 2026</strong> para finalizar asientos y catering.',
+        'Confirma tu asistencia antes del <strong>sábado 1 de agosto de 2026</strong> para finalizar asientos y catering.',
       line2: 'Si recibiste una invitación, responde usando el formulario de RSVP de abajo.',
       button: 'Abrir formulario RSVP',
       buttonAria: 'Abrir formulario de RSVP',
+      nameLabel: 'Nombre completo',
+      attendanceLabel: 'Asistencia',
       attendancePlaceholder: 'Selecciona una opción',
       attendanceYes: 'Asistiré',
       attendanceNo: 'No asistiré',
+      submitButton: 'Enviar RSVP',
     },
     travel: {
       title: 'Alojamiento y Estacionamiento',
@@ -190,13 +193,16 @@ const translations = {
     rsvp: {
       title: '出欠確認',
       line1Html:
-        '<strong>2026年5月15日</strong> までに出欠をご回答ください。席次とケータリングの準備に必要です。',
+        '<strong>2026年8月1日（土）</strong> までに出欠をご回答ください。席次とケータリングの準備に必要です。',
       line2: '招待状を受け取った方は、以下のRSVPフォームからご回答ください。',
       button: 'RSVPフォームを開く',
       buttonAria: 'RSVPフォームを開く',
+      nameLabel: '氏名',
+      attendanceLabel: '出欠',
       attendancePlaceholder: 'オプションを選択してください',
       attendanceYes: '出席します',
       attendanceNo: '欠席します',
+      submitButton: 'RSVPを送信',
     },
     travel: {
       title: '宿泊・駐車場案内',
