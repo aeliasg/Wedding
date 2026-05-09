@@ -78,7 +78,7 @@ const translations = {
       attendanceNo: 'No asistiré',
     },
     travel: {
-      title: 'Viaje y alojamiento',
+      title: 'Alojamiento y Estacionamiento',
       hotelsTitle: 'Recomendaciones de hotel',
       hotelMissionHtml:
         'Otra opción cercana a la recepción es <a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>.',
@@ -90,10 +90,6 @@ const translations = {
         '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
       transportTitle: 'Información de transporte',
       transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
-      airportTitle: 'Notas de aeropuerto / ciudad',
-      airport1: 'Aeropuerto más cercano: Your City International Airport (YYY).',
-      airport2: 'Aprox. 35 minutos al lugar principal en auto.',
-      airport3: 'Para invitados del extranjero: recuerden seguro de viaje y adaptadores.',
     },
     faq: {
       title: 'Preguntas frecuentes',
@@ -199,7 +195,7 @@ const translations = {
       attendanceNo: '欠席します',
     },
     travel: {
-      title: '交通・宿泊案内',
+      title: '宿泊・駐車場案内',
       hotelsTitle: 'ホテルのおすすめ',
       hotelMissionHtml:
         '次のホテルは<a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>です。',
@@ -211,10 +207,6 @@ const translations = {
         '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       transportTitle: '交通情報',
       transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
-      airportTitle: '空港 / 都市メモ',
-      airport1: '最寄り空港：Your City International Airport (YYY)',
-      airport2: 'メイン会場までは車で約35分です。',
-      airport3: '海外からのゲストは旅行保険と変換プラグをご準備ください。',
     },
     faq: {
       title: 'よくある質問',
