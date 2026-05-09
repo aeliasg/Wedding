@@ -19,7 +19,7 @@ const translations = {
       details: 'Detalles',
       venues: 'Sedes',
       schedule: 'Cronograma',
-      rsvp: 'Confirmación de asistencia',
+      rsvp: 'Asistencia',
       confirmAttendance: 'Confirmar asistencia',
       travel: 'Viaje',
       faq: 'Preguntas',
