@@ -80,6 +80,11 @@ const translations = {
       attendanceYes: 'Asistiré',
       attendanceNo: 'No asistiré',
       submitButton: 'Enviar',
+      messages: {
+        required: 'Por favor completa tu nombre completo y estado de asistencia.',
+        success: '¡Gracias! Tu reservación ha sido enviada.',
+        error: 'Algo salió mal. Por favor inténtalo de nuevo.',
+      },
     },
     travel: {
       title: 'Alojamiento y Estacionamiento',
@@ -202,6 +207,11 @@ const translations = {
       attendanceYes: '出席します',
       attendanceNo: '欠席します',
       submitButton: '送信',
+      messages: {
+        required: '氏名と出欠を入力してください。',
+        success: 'ありがとうございます。ご予約内容を送信しました。',
+        error: 'エラーが発生しました。もう一度お試しください。',
+      },
     },
     travel: {
       title: '宿泊・駐車場案内',
@@ -258,6 +268,7 @@ const mobileNavMediaQuery = window.matchMedia('(max-width: 800px)');
 const scrollDeltaBeforeToggle = 8;
 
 let currentLanguage = 'es';
+let activeRsvpMessage = null;
 let lastScrollPosition = window.scrollY;
 
 const getTranslation = (lang, key) => {
@@ -295,6 +306,10 @@ const applyTranslations = (lang) => {
   });
 
   updateCountdown();
+
+  if (activeRsvpMessage) {
+    setTranslatedRsvpMessage(activeRsvpMessage.key, activeRsvpMessage.isError);
+  }
 };
 
 const updateCountdown = () => {
@@ -407,10 +422,25 @@ const rsvpSubmitButton = document.querySelector('#rsvp-submit');
 const scriptURL = 'https://script.google.com/macros/s/AKfycbzglbZEObJ8d4tNLIW0imaGybsgA8f8Ga7JbyVdOfE8RJQkQfZavPM7CfJL0kdUUkdH/exec';
 
 const setRsvpMessage = (message, isError = false) => {
+  activeRsvpMessage = null;
+
   if (!rsvpMessage) {
     return;
   }
 
+  rsvpMessage.textContent = message;
+  rsvpMessage.classList.toggle('error', isError);
+  rsvpMessage.classList.toggle('success', !isError && Boolean(message));
+};
+
+const setTranslatedRsvpMessage = (key, isError = false) => {
+  activeRsvpMessage = { key, isError };
+
+  if (!rsvpMessage) {
+    return;
+  }
+
+  const message = getTranslation(currentLanguage, `rsvp.messages.${key}`) || '';
   rsvpMessage.textContent = message;
   rsvpMessage.classList.toggle('error', isError);
   rsvpMessage.classList.toggle('success', !isError && Boolean(message));
@@ -427,7 +457,7 @@ if (rsvpForm && rsvpSubmitButton) {
     const attendance = String(attendanceInput?.value || '').trim();
 
     if (!name || !attendance) {
-      setRsvpMessage('Please complete your full name and attendance status.', true);
+      setTranslatedRsvpMessage('required', true);
       return;
     }
 
@@ -443,11 +473,11 @@ if (rsvpForm && rsvpSubmitButton) {
         body: formData,
       });
 
-      setRsvpMessage('Thank you! Your reservation has been submitted.');
+      setTranslatedRsvpMessage('success');
       rsvpForm.reset();
     } catch (error) {
       console.error(error);
-      setRsvpMessage('Something went wrong. Please try again.', true);
+      setTranslatedRsvpMessage('error', true);
     } finally {
       rsvpSubmitButton.disabled = false;
     }
