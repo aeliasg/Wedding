@@ -260,6 +260,19 @@ h2 {
   margin-bottom: 0.3rem;
 }
 
+.transport-list {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.transport-list li {
+  margin-bottom: 0.65rem;
+}
+
+.transport-list li:last-child {
+  margin-bottom: 0;
+}
+
 .note {
   color: var(--muted);
   font-size: 0.95rem;

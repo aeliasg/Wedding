@@ -89,7 +89,10 @@ const translations = {
       hotelRealMinasMapsHtml:
         '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
       transportTitle: 'Información de transporte',
-      transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
+      transportCeremony:
+        'Para la ceremonia religiosa, te recomendamos llegar con tiempo y buscar un estacionamiento público cerca de Plaza de la Paz o del centro de Guanajuato.',
+      transportReception: 'Para la recepción, La Virgen de la Cueva cuenta con estacionamiento propio.',
+      transportTiming: 'Considera tiempo extra para trasladarte entre la iglesia, la sesión de fotos y la recepción.',
     },
     faq: {
       title: 'Preguntas frecuentes',
@@ -206,7 +209,9 @@ const translations = {
       hotelRealMinasMapsHtml:
         '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       transportTitle: '交通情報',
-      transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
+      transportCeremony: '挙式へ車でお越しの場合は、Plaza de la Pazまたはグアナファト中心部周辺の公共駐車場をご利用ください。',
+      transportReception: '披露宴会場のLa Virgen de la Cuevaには専用駐車場があります。',
+      transportTiming: '教会、写真撮影場所、披露宴会場の移動には余裕を持ってお越しください。',
     },
     faq: {
       title: 'よくある質問',
