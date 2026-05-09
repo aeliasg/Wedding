@@ -79,7 +79,7 @@ const translations = {
       attendancePlaceholder: 'Selecciona una opción',
       attendanceYes: 'Asistiré',
       attendanceNo: 'No asistiré',
-      submitButton: 'Enviar RSVP',
+      submitButton: 'Enviar',
     },
     travel: {
       title: 'Alojamiento y Estacionamiento',
@@ -202,7 +202,7 @@ const translations = {
       attendancePlaceholder: 'オプションを選択してください',
       attendanceYes: '出席します',
       attendanceNo: '欠席します',
-      submitButton: 'RSVPを送信',
+      submitButton: '送信',
     },
     travel: {
       title: '宿泊・駐車場案内',
