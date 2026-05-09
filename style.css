@@ -138,6 +138,27 @@ h2 {
   background: var(--bg-alt);
 }
 
+.nav-cta {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background: var(--accent-deep);
+  border: 1px solid var(--accent-deep);
+  border-radius: 999px;
+  padding: 0.45rem 0.85rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.nav-cta:hover,
+.nav-cta:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow);
+  background: var(--accent);
+}
+
 .nav-toggle {
   display: none;
   border: 1px solid var(--border);
@@ -357,6 +378,12 @@ h2 {
     margin-bottom: 0.25rem;
   }
 
+  .nav-cta {
+    order: 2;
+    width: 100%;
+    text-align: center;
+  }
+
   .nav-toggle {
     display: block;
   }
@@ -364,7 +391,7 @@ h2 {
   .nav-menu {
     position: absolute;
     right: 4%;
-    top: 60px;
+    top: 112px;
     width: min(280px, 92vw);
     display: none;
     flex-direction: column;
