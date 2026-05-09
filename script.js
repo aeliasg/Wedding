@@ -80,9 +80,14 @@ const translations = {
     travel: {
       title: 'Viaje y alojamiento',
       hotelsTitle: 'Recomendaciones de hotel',
-      hotelA: 'Hotel A (a 10 minutos del lugar)',
-      hotelB: 'Hotel B (centro de la ciudad, con transporte)',
-      hotelC: 'Hotel C (opción económica cercana)',
+      hotelMissionHtml:
+        'La opción de hotel más cercana a la recepción es <a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>.',
+      hotelMissionMapsHtml:
+        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Ver Hotel Misión Guanajuato en Google Maps</a>.',
+      hotelRealMinasHtml:
+        'Otra opción cercana es <a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>.',
+      hotelRealMinasMapsHtml:
+        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Ver Hotel Real De Minas Guanajuato en Google Maps</a>.',
       transportTitle: 'Información de transporte',
       transport1: 'Hay zona de descenso para apps de transporte en ambas sedes.',
       transport2: 'Servicio de transporte limitado hacia la recepción.',
@@ -198,9 +203,14 @@ const translations = {
     travel: {
       title: '交通・宿泊案内',
       hotelsTitle: 'ホテルのおすすめ',
-      hotelA: 'Hotel A（会場から10分）',
-      hotelB: 'Hotel B（市内中心部、シャトルあり）',
-      hotelC: 'Hotel C（近隣の手頃なホテル）',
+      hotelMissionHtml:
+        '披露宴会場から最も近いホテルは、<a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>です。',
+      hotelMissionMapsHtml:
+        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión GuanajuatoをGoogle Mapsで見る</a>。',
+      hotelRealMinasHtml:
+        '次のホテルは<a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>です。',
+      hotelRealMinasMapsHtml:
+        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas GuanajuatoをGoogle Mapsで見る</a>。',
       transportTitle: '交通情報',
       transport1: '両会場とも配車サービスの降車エリアがあります。',
       transport2: '披露宴会場行きのシャトルは一部のみ運行予定です。',
