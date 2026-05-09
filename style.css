@@ -332,10 +332,11 @@ h2 {
 }
 
 .timeline span {
-  color: var(--accent-deep);
+  color: var(--text);
 }
 
 .timeline li span:first-child {
+  color: var(--accent-deep);
   font-weight: 600;
 }
 
