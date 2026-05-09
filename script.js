@@ -89,9 +89,7 @@ const translations = {
       hotelRealMinasMapsHtml:
         '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Ver Hotel Real De Minas Guanajuato en Google Maps</a>.',
       transportTitle: 'Información de transporte',
-      transport1: 'Hay zona de descenso para apps de transporte en ambas sedes.',
-      transport2: 'Servicio de transporte limitado hacia la recepción.',
-      transport3: 'También hay opciones de taxi y transporte público local.',
+      transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
       airportTitle: 'Notas de aeropuerto / ciudad',
       airport1: 'Aeropuerto más cercano: Your City International Airport (YYY).',
       airport2: 'Aprox. 35 minutos al lugar principal en auto.',
@@ -212,9 +210,7 @@ const translations = {
       hotelRealMinasMapsHtml:
         '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas GuanajuatoをGoogle Mapsで見る</a>。',
       transportTitle: '交通情報',
-      transport1: '両会場とも配車サービスの降車エリアがあります。',
-      transport2: '披露宴会場行きのシャトルは一部のみ運行予定です。',
-      transport3: 'タクシーと公共交通機関も利用できます。',
+      transport1: 'For vechiles the best way is find a nearby public parking near the guanjuato plaze for the religios cerremony. for the recpection the restaurint has its own parking lot.',
       airportTitle: '空港 / 都市メモ',
       airport1: '最寄り空港：Your City International Airport (YYY)',
       airport2: 'メイン会場までは車で約35分です。',
