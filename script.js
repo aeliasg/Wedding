@@ -115,7 +115,6 @@ const translations = {
       note: 'Muchas gracias por tomarse el tiempo de acompañarnos en este momento tan especial. Esperamos verlos muy pronto. Con amor, Ayane y Alejandro.',
     },
     footer: {
-      thanks: 'Gracias por celebrar con nosotros.',
       date: '20 de junio de 2026',
       top: 'Volver arriba',
     },
@@ -235,7 +234,6 @@ const translations = {
       note: '私たちの大切な日にお時間を割いてくださり、心より感謝申し上げます。近いうちにお会いできることを楽しみにしています。愛を込めて、Ayane と Alejandroより。',
     },
     footer: {
-      thanks: '私たちの大切な日を一緒にお祝いしてくださりありがとうございます。',
       date: '2026年6月20日',
       top: 'ページ上部へ戻る',
     },
