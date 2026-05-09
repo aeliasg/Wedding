@@ -248,6 +248,7 @@ const navMenu = document.querySelector('.nav-menu');
 const languageToggle = document.querySelector('#language-toggle');
 const countdownDays = document.querySelector('#countdown-days');
 const countdownLabel = document.querySelector('#countdown-label');
+const scrollTopLink = document.querySelector('[data-scroll-top]');
 
 const targetDate = new Date('2026-10-01T17:00:00-06:00');
 const millisecondsPerDay = 1000 * 60 * 60 * 24;
@@ -369,6 +370,16 @@ const updateHeaderVisibility = () => {
 };
 
 window.addEventListener('scroll', updateHeaderVisibility, { passive: true });
+
+if (scrollTopLink) {
+  scrollTopLink.addEventListener('click', (event) => {
+    event.preventDefault();
+    siteHeader?.classList.remove('header-hidden');
+    lastScrollPosition = window.scrollY;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+  });
+}
 
 if (typeof mobileNavMediaQuery.addEventListener === 'function') {
   mobileNavMediaQuery.addEventListener('change', updateHeaderVisibility);
