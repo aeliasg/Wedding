@@ -27,6 +27,14 @@ body {
   line-height: 1.6;
 }
 
+html[lang="ja"] {
+  font-size: 92%;
+}
+
+html[lang="ja"] body {
+  letter-spacing: -0.01em;
+}
+
 .page-top {
   position: absolute;
   top: 0;
