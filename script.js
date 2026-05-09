@@ -242,6 +242,7 @@ const translations = {
   },
 };
 
+const siteHeader = document.querySelector('.site-header');
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 const languageToggle = document.querySelector('#language-toggle');
@@ -250,8 +251,11 @@ const countdownLabel = document.querySelector('#countdown-label');
 
 const targetDate = new Date('2026-10-01T17:00:00-06:00');
 const millisecondsPerDay = 1000 * 60 * 60 * 24;
+const mobileNavMediaQuery = window.matchMedia('(max-width: 800px)');
+const scrollDeltaBeforeToggle = 8;
 
 let currentLanguage = 'es';
+let lastScrollPosition = window.scrollY;
 
 const getTranslation = (lang, key) => {
   return key.split('.').reduce((value, part) => value?.[part], translations[lang]);
@@ -323,6 +327,54 @@ window.addEventListener('keydown', (event) => {
     navToggle?.focus();
   }
 });
+
+
+const closeMobileMenu = () => {
+  if (!navMenu?.classList.contains('open')) {
+    return;
+  }
+
+  navMenu.classList.remove('open');
+  navToggle?.setAttribute('aria-expanded', 'false');
+};
+
+const updateHeaderVisibility = () => {
+  if (!siteHeader) {
+    return;
+  }
+
+  const currentScrollPosition = window.scrollY;
+  const isMobile = mobileNavMediaQuery.matches;
+  const isScrollingDown = currentScrollPosition > lastScrollPosition;
+  const hasScrolledEnough = Math.abs(currentScrollPosition - lastScrollPosition) > scrollDeltaBeforeToggle;
+
+  if (!isMobile) {
+    siteHeader.classList.remove('header-hidden');
+    lastScrollPosition = currentScrollPosition;
+    return;
+  }
+
+  if (currentScrollPosition <= 0) {
+    siteHeader.classList.remove('header-hidden');
+  } else if (hasScrolledEnough && isScrollingDown) {
+    siteHeader.classList.add('header-hidden');
+    closeMobileMenu();
+  } else if (hasScrolledEnough) {
+    siteHeader.classList.remove('header-hidden');
+  }
+
+  if (hasScrolledEnough || currentScrollPosition <= 0) {
+    lastScrollPosition = currentScrollPosition;
+  }
+};
+
+window.addEventListener('scroll', updateHeaderVisibility, { passive: true });
+
+if (typeof mobileNavMediaQuery.addEventListener === 'function') {
+  mobileNavMediaQuery.addEventListener('change', updateHeaderVisibility);
+} else {
+  mobileNavMediaQuery.addListener(updateHeaderVisibility);
+}
 
 if (languageToggle) {
   languageToggle.value = 'es';
