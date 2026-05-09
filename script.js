@@ -114,7 +114,7 @@ const translations = {
       a6: 'Envía un mensaje a la persona que compartió la invitación contigo.',
     },
     message: {
-      note: 'Gracias de todo corazón por acompañarnos y por ser parte de esta etapa tan importante en nuestras vidas. Su presencia, cariño y buenos deseos significan muchísimo para nosotros y harán de este día un recuerdo aún más especial. Nos sentimos muy afortunados de poder celebrar rodeados de las personas que queremos. Con mucho amor y gratitud, Ayane y Alejandro.',
+      note: 'Gracias de todo corazón por acompañarnos y por ser parte de esta etapa tan importante en nuestras vidas. Su presencia, cariño y buenos deseos significan muchísimo para nosotros y harán de este día un recuerdo aún más especial. Con mucho amor y gratitud, Ayane y Alejandro.',
     },
     footer: {
       date: '20 de junio de 2026',
