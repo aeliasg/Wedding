@@ -338,9 +338,13 @@ h2 {
 
 .btn {
   display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
   text-decoration: none;
   border: 1px solid var(--accent-deep);
+  background: #fff;
   color: var(--accent-deep);
+  font: inherit;
   font-weight: 600;
   padding: 0.68rem 1.1rem;
   border-radius: 999px;
