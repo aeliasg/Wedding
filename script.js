@@ -93,7 +93,7 @@ const translations = {
       transportCeremony:
         'Para la ceremonia religiosa, te recomendamos llegar con tiempo y buscar un estacionamiento público cerca de Plaza de la Paz o del centro de Guanajuato.',
       transportReception: 'Para la recepción, La Virgen de la Cueva cuenta con estacionamiento propio.',
-      transportTiming: 'Considera tiempo extra para trasladarte entre la iglesia, la sesión de fotos y la recepción.',
+      transportTiming: 'Considera tiempo extra para trasladarte entre la iglesia y la recepción.',
     },
     faq: {
       title: 'Preguntas frecuentes',
