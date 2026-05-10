@@ -64,8 +64,6 @@ const translations = {
       photos: 'Sesión de fotos con invitados y familia',
       receptionBegins: 'Inicio de la recepción en el restaurante',
       welcome: 'Bienvenida de los novios',
-      estudiantina: 'Estudiantina',
-      mariachi: 'Mariachi',
     },
     rsvp: {
       title: 'Confirmación de asistencia',
@@ -191,8 +189,6 @@ const translations = {
       photos: 'ゲスト・家族との写真撮影',
       receptionBegins: 'レストランで披露宴開始',
       welcome: '新郎新婦の歓迎セレモニー',
-      estudiantina: 'エストゥディアンティーナ',
-      mariachi: 'マリアッチ',
     },
     rsvp: {
       title: '出欠確認',
