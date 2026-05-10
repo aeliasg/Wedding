@@ -106,7 +106,7 @@ const translations = {
       q1: '¿Puedo llevar acompañante?',
       a1: 'Revisa tu invitación. Si tienes dudas, contáctanos directamente.',
       q2: '¿Están invitados los niños?',
-      a2: '¡Queremos mucho a tus peques! Revisa tu invitación para confirmar asistencia infantil.',
+      a2: 'Les agradecemos, su comprensión; esta será una recepción exclusiva para adultos.',
       q3: '¿Qué debo usar?',
       a3: 'Ropa formal.',
       q4: '¿Dónde debo estacionarme?',
