@@ -98,8 +98,7 @@ const translations = {
       transportTitle: 'Información de transporte',
       transportCeremony:
         'Para la ceremonia religiosa, te recomendamos llegar con tiempo y buscar un estacionamiento público cerca de Plaza de la Paz o del centro de Guanajuato.',
-      transportReception: 'Para la recepción, La Virgen de la Cueva cuenta con estacionamiento propio.',
-      transportTiming: 'Considera tiempo extra para trasladarte entre la iglesia y la recepción.',
+      transportReception: 'Casa Valadez se encuentra frente al Teatro Juárez, muy cerca de la iglesia.',
     },
     faq: {
       title: 'Preguntas frecuentes',
@@ -222,8 +221,7 @@ const translations = {
         '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+Boutique+1850%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+7%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       transportTitle: '交通情報',
       transportCeremony: '挙式へ車でお越しの場合は、Plaza de la Pazまたはグアナファト中心部周辺の公共駐車場をご利用ください。',
-      transportReception: '披露宴会場のLa Virgen de la Cuevaには専用駐車場があります。',
-      transportTiming: '教会、写真撮影場所、披露宴会場の移動には余裕を持ってお越しください。',
+      transportReception: 'Casa ValadezはTeatro Juárezの向かい側にあり、教会からもすぐ近くです。',
     },
     faq: {
       title: 'よくある質問',
