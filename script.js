@@ -87,6 +87,14 @@ const translations = {
     travel: {
       title: 'Alojamiento y Estacionamiento',
       hotelsTitle: 'Recomendaciones de hotel',
+      hotelSanDiegoHtml:
+        'Opción más cercana: <a href="https://sandiegohotel.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel San Diego</a>, ubicado en Jardín de la Unión #1.',
+      hotelSanDiegoMapsHtml:
+        '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+San+Diego%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+1%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
+      hotel1850Html:
+        'Otra opción a pocos pasos: <a href="https://www.hotel1850.com/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Boutique 1850</a>, ubicado en Jardín de la Unión #7.',
+      hotel1850MapsHtml:
+        '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+Boutique+1850%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+7%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
       hotelMissionHtml:
         'Otra opción cercana a la recepción es <a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>.',
       hotelMissionMapsHtml:
@@ -212,6 +220,14 @@ const translations = {
     travel: {
       title: '宿泊・駐車場案内',
       hotelsTitle: 'ホテルのおすすめ',
+      hotelSanDiegoHtml:
+        '最も近いホテルは、Jardín de la Unión #1にある<a href="https://sandiegohotel.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel San Diego</a>です。',
+      hotelSanDiegoMapsHtml:
+        '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+San+Diego%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+1%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
+      hotel1850Html:
+        'もう一つの徒歩圏内のホテルは、Jardín de la Unión #7にある<a href="https://www.hotel1850.com/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Boutique 1850</a>です。',
+      hotel1850MapsHtml:
+        '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+Boutique+1850%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+7%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       hotelMissionHtml:
         '次のホテルは<a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>です。',
       hotelMissionMapsHtml:
