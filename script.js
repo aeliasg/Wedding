@@ -95,14 +95,6 @@ const translations = {
         'Otra opción a pocos pasos: <a href="https://www.hotel1850.com/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Boutique 1850</a>, ubicado en Jardín de la Unión #7.',
       hotel1850MapsHtml:
         '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+Boutique+1850%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+7%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
-      hotelMissionHtml:
-        'Otra opción cercana a la recepción es <a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>.',
-      hotelMissionMapsHtml:
-        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
-      hotelRealMinasHtml:
-        'Primera opción cercana: <a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>.',
-      hotelRealMinasMapsHtml:
-        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>.',
       transportTitle: 'Información de transporte',
       transportCeremony:
         'Para la ceremonia religiosa, te recomendamos llegar con tiempo y buscar un estacionamiento público cerca de Plaza de la Paz o del centro de Guanajuato.',
@@ -228,14 +220,6 @@ const translations = {
         'もう一つの徒歩圏内のホテルは、Jardín de la Unión #7にある<a href="https://www.hotel1850.com/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Boutique 1850</a>です。',
       hotel1850MapsHtml:
         '<a href="https://www.google.com/maps/search/?api=1&query=Hotel+Boutique+1850%2C+Jard%C3%ADn+de+la+Uni%C3%B3n+7%2C+Guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
-      hotelMissionHtml:
-        '次のホテルは<a href="https://www.hotelesmision.com.mx/destino/hotel-mision-guanajuato" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Misión Guanajuato</a>です。',
-      hotelMissionMapsHtml:
-        '<a href="https://maps.app.goo.gl/KHiFoBMVoHBPsxtw8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
-      hotelRealMinasHtml:
-        '最初のおすすめは<a href="https://www.hotelesrealdeminas.com.mx/" class="inline-link" target="_blank" rel="noopener noreferrer">Hotel Real De Minas Guanajuato</a>です。',
-      hotelRealMinasMapsHtml:
-        '<a href="https://maps.app.goo.gl/fFHVFGsj3ACA22Qo8" class="inline-link" target="_blank" rel="noopener noreferrer">Google Maps</a>。',
       transportTitle: '交通情報',
       transportCeremony: '挙式へ車でお越しの場合は、Plaza de la Pazまたはグアナファト中心部周辺の公共駐車場をご利用ください。',
       transportReception: '披露宴会場のLa Virgen de la Cuevaには専用駐車場があります。',
